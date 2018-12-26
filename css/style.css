@@ -1,0 +1,1080 @@
+/* Import Kaushan Font */
+@font-face {
+    font-family: 'Kaushan';
+    src: url('../font/KaushanScript-Regular.ttf');
+}
+
+
+/* Import Montserrat Font */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../font/Montserrat.ttf');
+}
+
+/* Import Roboto-Light Font */
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/Roboto-LightItalic.ttf');
+}
+
+/* Header Style */
+header {
+    background: url(../img/headerBG.jpg) center center no-repeat;
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+}
+
+header nav {
+    background: none;
+    box-shadow: none;
+}
+
+header nav {
+    height: 68px;
+}
+
+header nav ul li {
+    font-size: 14px;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    padding: 0 24px;
+}
+
+header nav ul li a {
+    padding: 0;
+}
+
+header nav ul li a:hover:not(.i) {
+    color: rgb( 252, 227, 138);
+    border-bottom: 4px solid rgb( 252, 227, 138);
+    background: none;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+header nav ul li a:hover {
+    background: none;
+}
+
+header nav .logo {
+    font-size: 30px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    padding-left: 17px;
+}
+
+header nav .side-nav {
+    width: 200px;
+    padding-top: 30px;
+}
+
+header .creative {
+    font-size: 4.8vw;
+    font-family: "Kaushan";
+    color: #fff;
+    padding-top: 10vh;
+}
+
+header .welcome {
+    font-size: 10vw;
+    font-family: "Montserrat";
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    line-height: 0.933;
+}
+
+header hr {
+    width: 50px;
+    margin: 55px auto 0 auto;
+    border: 2px solid #fff;
+}
+
+header .learn {
+    width: 158px;
+    height: 38px;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 55px auto 0 auto;
+    padding-top: 6px;
+    border: 3px solid #fff;
+    cursor: pointer;
+}
+/* End Header Style */
+
+/* Default Design */
+.header {
+    font-family: 'Kaushan';
+    font-size: 24px;
+    color: #000;
+    margin: 0
+}
+
+.sub-header {
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.text {
+    font-family: "Roboto";
+    font-size: 15px;
+    margin-bottom: 100px;
+}
+
+.hr {
+    width: 50px;
+    margin: 30px auto 35px auto;
+    border: 2px solid #f38181;
+}
+/* End Default Design */
+
+/* What We Do Style */
+#what-we-do {
+    width: 100%;
+    max-width: 100%;
+    height: 750px;
+    padding: 85px 0;
+}
+
+#what-we-do figure {
+    background: none;
+    cursor: pointer;
+}
+
+#what-we-do figure:last-child {
+    padding-bottom: 0 !important;
+}
+
+#what-we-do figcaption {
+    padding: 105px 0;
+    background: -webkit-linear-gradient(rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9));
+    background: linear-gradient(rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9));
+}
+
+#what-we-do figcaption h3 {
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+/* End What We Do Style */
+
+/* Facts Section Style */
+#facts {
+    width: 100%;
+    max-width: 100%;
+    height: 270px;
+    background: #95e1d3;
+    color: #fff;
+    background-size: cover;
+}
+
+#facts div:first-child div:first-child div {
+    float: left;
+    padding: 55px 0 55px 11vw;
+}
+
+#facts div:first-child div:first-child div:first-child {
+    padding-left: 1vw;
+}
+
+#facts div p {
+    font-family: "Montserrat";
+    font-size: 72px;
+    font-weight: bold;
+    margin: 0;
+}
+
+#facts div h6 {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* End Facts Section Style */
+
+/* We Work With Section Style */
+#we-work-with {
+    width: 100%;
+    height: 540px;
+    max-width: 100%;
+    padding: 85px 0;
+}
+
+#we-work-with .services div {
+    padding-bottom: 20px;
+}
+
+#we-work-with .services div h1,
+.service-header {
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#we-work-with .services div p {
+    font-family: "Roboto";
+    font-size: 13px;
+    color: rgb( 153, 153, 153);
+}
+
+#we-work-with .services hr {
+    margin: 0 0 45px 0;
+    border: 1px solid rgb( 229, 229, 229);
+}
+
+#we-work-with .services i {
+    font-size: 3.5vw;
+    color: #95e1d3;
+}
+/* End We Work With Section Style */
+
+/* For All Devices Section Style */
+#for-all-devices {
+    width: 100%;
+    height: 900px;
+    position: relative;
+    padding-top: 100px;
+    background: url(../img/FAD-BG.jpg) center center no-repeat;
+}
+
+#for-all-devices .phone-1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 21vw;
+}
+/* End For All Devices Section Style */
+
+/* Service Section Style */
+#service {
+    width: 100%;
+    height: 850px;
+    padding: 70px 0 0 0;
+}
+
+#service i {
+    color: #95e1d3;
+}
+/* End Service Section Style */
+
+/* Slider Style */
+#slider {
+    width: 100%;
+    height: 275px;
+    background: #f8f8f8;
+}
+
+#slider .opinion {
+    font-size: 6em;
+    margin: 75px 0 75px 75px;
+    padding: 1.5vw 2vw;
+    border: 3px solid #95e1d3;
+    color: #95e1d3;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+#slider .opinion-text,
+#slider-2 .opinion-text {
+    font-size: 23px;
+    font-family: "Roboto";
+    color: rgb( 153, 153, 153);
+    font-style: italic;
+    line-height: 1.5;
+    margin-top: 6.8vw;
+    margin-bottom: 0;
+    padding-right: 1vw;
+}
+
+#slider .slider-hr,
+#slider-2 .slider-hr {
+    width: 60px;
+    border: 2px solid #f38181;
+    margin: 0;
+    display: inline-block;
+}
+
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+#slider .rslides_nav,
+#slider-2 .rslides_nav {
+    position: absolute;
+    top: 60%;
+    left: 0;
+    opacity: 0.7;
+    z-index: 3;
+    overflow: hidden;
+    text-decoration: none;
+    height: 61px;
+    width: 38px;
+    margin-top: -45px;
+}
+
+#slider .rslides_nav.next,
+#slider-2 .rslides_nav.next {
+    left: auto;
+    background-position: right top;
+    right: 0;
+    margin-right: 5px;
+}
+
+#slider .rslides_nav i,
+#slider-2 .rslides_nav i {
+    font-size: 3em;
+    color: #cfcfcf;
+}
+/* End Slider Style */
+
+/* Who We Are Section Style */
+#who-we-are {
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+#who-we-are figure {
+    background: none;
+    cursor: pointer;
+}
+
+#who-we-are figure:last-child {
+    padding-bottom: 0 !important;
+}
+
+#who-we-are figcaption {
+    padding: 105px 0;
+    background: -webkit-linear-gradient(rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9));
+    background: linear-gradient(rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9));
+}
+
+#who-we-are .WWA-social {
+    background-color: #fce38a;
+    padding: 0;
+    margin-top: 9vw;
+}
+
+#who-we-are .WWA-social i {
+    color: #f38181;
+    padding: 10px 1.1vw;
+}
+
+#who-we-are .WWA-social i:hover {
+    background-color: #f38181;
+    color: #fff;
+}
+
+.fa-3 {
+    font-size: 3em;
+}
+
+#who-we-are .designers {
+    margin-top: 40px
+}
+
+#who-we-are .title {
+    font-family: "Roboto";
+    font-size: 15px;
+    color: rgb( 153, 153, 153);
+    line-height: 2.4;
+    margin: 0;
+}
+/* End Who We Are Section Style */
+
+/* LOGO Section Style */
+#logo {
+    width: 100%;
+    height: 250px;
+    padding: 55px 0;
+    background-color: #f5f3f3;
+}
+
+#logo .row {
+    margin: 0;
+}
+
+#logo img {
+    padding: 0 6vw;
+}
+
+#logo img:first-child {
+    padding-left: .7vw;
+}
+
+#logo img:last-child {
+    padding-right: 0;
+}
+/* Emd LOGO Section Style */
+
+/* What We Do Section 2 Style */
+#what-we-do-2 {
+    width: 100%;
+    height: 950px;
+    padding: 100px 0 0 0;
+    background: #fbfbfb;
+}
+
+.carousel .carousel-item {
+    width: 270px !important;
+}
+/* End What We Do Section 2 Style */
+
+/* Slider Section Style */
+#slider-2 {
+    width: 100%;
+    height: 310px;
+    padding: 50px 0;
+}
+
+#slider-2 .opinion-text {
+    margin-top: 4vw;
+}
+/* End Slider Section Style */
+
+/* Happy Clients Section */
+#happy-clients {
+    width: 100%;
+    height: 850px;
+    padding-top: 100px;
+    background: url(../img/happyClients-BG.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+#happy-clients .people {
+    padding-top: 70px;
+}
+
+.other-header {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 15px 0 10px 0;
+}
+
+.other-sub-header {
+    font-family: "Roboto";
+    font-size: 15px;
+    color: rgb( 51, 51, 51);
+    line-height: 1.6;
+    margin: 0;
+}
+
+#happy-clients .people hr {
+    width: 50px;
+    margin: 15px 0 0 0;
+    border: 2px solid #f38181;
+}
+
+.other-text {
+    font-size: 17px;
+    font-family: "Roboto";
+    color: rgb( 153, 153, 153);
+    line-height: 1.6;
+}
+/* End Happy Clients Section */
+
+/* Our Stories Section Style */
+#our-stories {
+    width: 100%;
+    height: 750px;
+    padding: 100px 0;
+}
+
+#our-stories .story {
+    position: relative;
+}
+
+#our-stories .story .date {
+    position: absolute;
+    padding: 5px 20px;
+    background: #95e1d3;
+    top: 0;
+    margin-top: 150px;
+    margin-left: -10px;
+}
+
+#our-stories .story .date span:first-child {
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb( 255, 255, 255);
+    display: block;
+}
+
+#our-stories .story .date span:last-child {
+    font-family: "Roboto";
+    font-size: 17px;
+    font-weight: 300;
+    font-style: italic;
+    display: block;
+    color: #fff;
+}
+
+#our-stories .our-text {
+    font-size: 15px;
+    padding: 0;
+    margin: 0 0 20px 0;
+    height: 70px;
+}
+
+#our-stories .our-number {
+    position: absolute;
+    margin-top: -1px;
+    margin-left: 5px;
+    font-size: 17px;
+    line-height: 1.6;
+    font-weight: 200;
+    font-style: italic;
+}
+
+#our-stories .story div hr,
+#footer div div hr {
+    background-color: rgb( 229, 229, 229);
+    margin: 0 0 15px 0;
+    border-top: none;
+}
+
+#our-stories .story div i {
+    color: #95e1d3;
+}
+/* End Our Stories Section Style */
+
+/* Map Section Style */
+#map {
+    width: 100%;
+    height: 200px;
+    padding: 45px 0;
+    background: url(../img/map-BG.jpg) center center no-repeat;
+}
+
+#map i {
+    font-size: 3em;
+    color: #f38181;
+}
+
+#map h1 {
+    font-size: 24px;
+    font-family: "Montserrat";
+    color: rgb( 243, 129, 129);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+#map hr {
+    background: #f38181;
+    border: 1px solid #f38181;
+    height: 3px;
+    width: 60px;
+}
+/* End Map Section Style */
+
+/* Footer Style */
+#footer {
+    width: 100%;
+    height: 590px;
+    padding-top: 50px;
+    background: #f8f8f8;
+}
+
+#footer .footer-logo {
+    font-size: 3.5vw;
+    font-family: "Montserrat";
+    color: rgb( 204, 204, 204);
+    font-weight: bold;
+}
+
+#footer .footer-mogo-text {
+    font-size: 17px;
+    font-family: "Roboto";
+    color: rgb( 153, 153, 153);
+}
+
+#footer .followers {
+    font-family: "Montserrat";
+    font-size: 14px;
+    padding: 10px 0 10px 0;
+}
+
+#footer .followers span {
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#footer div div .footer-social span {
+    font-size: 15px;
+    color: rgb( 153, 153, 153);
+    line-height: 1.6;
+}
+
+#footer div div .footer-social i {
+    font-size: 1.4em;
+    padding-left: 15px;
+    color: #95e1d3;
+}
+
+#footer div div .email {
+    padding: 15px 0 30px 0;
+}
+
+#footer div div .email input[type='email'] {
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    padding-left: 15px;
+    border-right: none;
+}
+
+#footer div div .email button {
+    border: none;
+    background: #95e1d3;
+    height: 3rem;
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#footer .footer-header {
+    font-size: 20px;
+    font-family: "Montserrat";
+    color: rgb( 51, 51, 51);
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+#footer .footer-blog-header {
+    font-size: 11px;
+    font-family: "Montserrat";
+    color: rgb( 51, 51, 51);
+    text-transform: uppercase;
+    line-height: 1.5;
+    margin: 0;
+    padding: 10px 0 0 0;
+}
+
+#footer .footer-blog-date {
+    font-size: 13px;
+    font-family: "Roboto";
+    color: rgb( 153, 153, 153);
+    font-style: italic;
+    line-height: 1.846;
+    margin: 0;
+}
+
+#footer .blog {
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+#footer div div:last-child div img {
+    margin: 0;
+    padding: 0 2px 2px 0;
+}
+
+#footer .footer-hr {
+    background-color: rgb( 229, 229, 229);
+    border-top: 1px;
+}
+/* End Footer Style */
+
+/* Keyframes */
+@-webkit-keyframes up {
+    0% {
+        -webkit-transform: translateY(50px);
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes up {
+    0% {
+        -webkit-transform: translateY(50px);
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+/* End Keyframes */
+
+/* Media Queries */
+@media only screen and (max-width: 1200px) {
+    header {
+        background-size: cover;
+    }
+    #facts div:first-child div:first-child div {
+        float: left;
+        padding: 55px 0 55px 9vw;
+    }
+    #what-we-do {
+        height: 100%;
+    }
+    #for-all-devices .phone-1 {
+        margin-right: 15vw;
+    }
+    #logo img {
+        padding: 0 4.5vw;
+    }
+    #our-stories {
+        height: 720px;
+    }
+    #our-stories .story .date {
+        margin-top: 10vw;
+    }
+    #our-stories .story .date span:first-child {
+        font-size: 3vw;
+    }
+    #our-stories .story .date span:last-child {
+        font-size: 1.7vw
+    }
+    #footer {
+        height: 535px;
+    }
+    #footer .followers {
+        padding: 0;
+    }
+    #footer .footer-mogo-text {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header .linear .welcome {
+        font-size: 14vw;
+    }
+    header .linear .creative {
+        font-size: 6.8vw;
+    }
+    header nav {
+        height: 60px;
+    }
+    #what-we-do {
+        height: 100%;
+    }
+    #facts div:first-child div:first-child div {
+        float: left;
+        padding: 55px 0 55px 4vw;
+    }
+    #for-all-devices .phone-1 {
+        margin-right: 3vw;
+    }
+    #logo img {
+        padding: 0 2vw;
+    }
+    #logo {
+        height: 100%;
+        padding: 30px 0;
+    }
+    .other-header {
+        font-size: 12px;
+    }
+    .other-text {
+        font-size: 15px !important;
+    }
+    #our-stories {
+        height: 670px;
+        padding-bottom: 0;
+    }
+    #our-stories .story .date {
+        padding: 0px 10px;
+        margin-top: 85px;
+        margin-left: -8px;
+    }
+    #our-stories .story .date span:first-child {
+        font-size: 20px;
+    }
+    #our-stories .story .date span:last-child {
+        font-size: 12px;
+    }
+    #slider,
+    #slider-2 {
+        height: 235px;
+    }
+    #slider-2 img {
+        width: 15vw;
+    }
+    #slider .opinion,
+    #slider-2 .opinion {
+        font-size: 6em;
+        margin: 55px 0 55px 30px;
+        padding: 1.5vw 2vw
+    }
+    #slider .opinion-text {
+        font-size: 17px;
+        margin-top: 8.5vw;
+    }
+    #slider-2 .opinion-text {
+        font-size: 2.6vw;
+        margin-top: 2.5vw;
+    }
+    #slider .slider-hr,
+    #slider-2 .slider-hr {
+        width: 50px;
+    }
+    #footer {
+        height: 500px;
+    }
+    #footer div div .footer-social i {
+        font-size: 1.3em;
+        padding-left: 1vw;
+    }
+    #footer .footer-blog-header {
+        font-size: 1vw;
+    }
+    #footer .followers {
+        padding: 0;
+    }
+    #footer div div hr {
+        margin-bottom: 15px;
+    }
+    #footer .blog {
+        padding: 0;
+        margin-bottom: 22px;
+    }
+    #footer .footer-mogo-text {
+        font-size: 11px;
+    }
+    .rslides_nav {
+        top: 65%;
+    }
+}
+
+@media only screen and (max-width: 601px) {
+    header .creative {
+        font-size: 8vw;
+    }
+    nav .brand-logo.right {
+        padding: 1vw 0 0 0;
+        font-size: 8vw;
+    }
+    nav .button-collapse i {
+        font-size: 10vw;
+        padding: 1.3vw 0 0 0;
+    }
+    header .welcome {
+        font-size: 16vw;
+    }
+    header .learn {
+        border: 2px solid #fff;
+        padding-top: 1.9vw;
+    }
+    #what-we-do {
+        height: 100%;
+        padding: 85px 0 0 0;
+    }
+    #what-we-do figure {
+        padding-bottom: 15px;
+    }
+    #facts {
+        height: 100%;
+    }
+    #facts div:first-child div:first-child div {
+        float: left;
+        padding: 20px 0 20px 0;
+        height: 100%;
+        width: 100%;
+        margin-left: auto;
+    }
+    #we-work-with {
+        height: 1400px;
+    }
+    #we-work-with .services i,
+    #we-work-with .services div {
+        text-align: center;
+    }
+    #we-work-with .services i {
+        font-size: 12vw;
+        margin-bottom: 15px;
+    }
+    #we-work-with .services div {
+        padding-bottom: 15px;
+    }
+    #we-work-with .services div h1 {
+        font-size: 20px;
+    }
+    #for-all-devices {
+        height: 617px;
+    }
+    #for-all-devices .phone {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        margin-bottom: -25px;
+    }
+    #service {
+        height: 100%;
+    }
+    #service ul.collapsible {
+        margin-top: 25px !important;
+    }
+    #who-we-are {
+        height: 100%;
+    }
+    #who-we-are .WWA-social {
+        margin-top: 12vh;
+    }
+    #who-we-are .designers {
+        margin-bottom: 15px
+    }
+    #logo {
+        height: 100%;
+        padding: 20px 0;
+    }
+    #logo img {
+        width: 17.8vw;
+        padding: 0;
+    }
+    #logo img:first-child {
+        padding-left: 1vw;
+    }
+    #logo img:last-child {
+        padding-right: 1vw;
+    }
+    #happy-clients {
+        height: 100%;
+    }
+    #happy-clients .people div {
+        margin-bottom: 20px !important;
+    }
+    .other-header {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    #our-stories {
+        height: 100%;
+        padding-bottom: 40px;
+    }
+    #our-stories div div div {
+        padding-bottom: 30px;
+    }
+    #our-stories .story .date {
+        margin-top: 35vw;
+        margin-left: -2vw;
+    }
+    #our-stories .story .date span:first-child {
+        font-size: 8vw;
+    }
+    #our-stories .story .date span:last-child {
+        font-size: 4.5vw;
+    }
+    #slider {
+        height: 130px;
+    }
+    #slider .opinion {
+        font-size: 14vw;
+        margin: 35px 0 35px 15px;
+        padding: 1.5vw 2vw
+    }
+    #slider .slider-hr,
+    #slider-2 .slider-hr {
+        width: 30px;
+        border: 1px solid #f38181;
+    }
+    #slider .opinion-text {
+        font-size: 3vw;
+        margin-top: 35px;
+    }
+    #slider .rslides span,
+    #slider-2 .rslides span {
+        margin: 0 !important;
+        font-size: 4vw !important;
+    }
+    #slider .rslides_nav {
+        top: 72.5%;
+    }
+    #slider-2 .rslides_nav {
+        top: 90.5%;
+    }
+    #slider .rslides_nav i,
+    #slider-2 .rslides_nav i {
+        font-size: 2.5em;
+    }
+    #slider .rslides_nav.next,
+    #slider-2 .rslides_nav.next {
+        margin-right: -5px;
+    }
+    #slider-2 {
+        height: 125px;
+        padding: 20px 0;
+    }
+    #slider-2 img {
+        width: 18vw;
+    }
+    #slider-2 .slider-hr {
+        width: 30px;
+    }
+    #what-we-do-2 {
+        height: 100%;
+    }
+    #footer {
+        height: 100%;
+    }
+    #footer .footer-mogo-text {
+        font-size: 13px;
+    }
+    #footer div div .footer-social i {
+        padding-left: 2vw;
+    }
+    #footer div div .email button {
+        font-size: 3.9vw;
+    }
+    #footer .footer-logo {
+        font-size: 7.5vw;
+    }
+    #footer .footer-blog-header {
+        font-size: 3vw;
+    }
+    #footer .followers {
+        padding: 20px 0 10px 0;
+    }
+}
+/* End Media Queries */
